@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chat App</string>
+    <string name="type_your_message">Mensagem</string>
+    <string name="NoRecent">Nenhuma recente</string>
+    <string name="server_client_id">AIzaSyCafkUFjSXAF-yd6jbqBijhtIX8-LSODoI</string>
+    <string name="admob_key">ca-app-pub-2597576948288169/4535392722</string>
+</resources>

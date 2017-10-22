@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_blur"
+    android:padding="16dp"
+    tools:context="in.co.victor.chatbubblesdemo.CreateAccountActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_logo"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Nome"
+            android:background="@drawable/edittext_rounded_corners"
+            android:inputType="textPersonName"
+            android:id="@+id/txt_name"
+            android:paddingLeft="16dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:layout_marginBottom="16dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Email"
+            android:background="@drawable/edittext_rounded_corners"
+            android:inputType="textEmailAddress"
+            android:id="@+id/txt_email"
+            android:paddingLeft="16dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:layout_marginBottom="16dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Senha"
+            android:textColor="@android:color/white"
+            android:inputType="textPassword"
+            android:id="@+id/txt_password"
+            android:layout_marginBottom="16dp"
+            android:paddingLeft="16dp"
+            android:background="@drawable/edittext_rounded_corners"
+            android:textColorHint="@android:color/white"
+
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cadastrar"
+            android:background="@drawable/rounded_button"
+            android:layout_marginBottom="16dp"
+            android:elevation="6dp"
+            android:textColor="@android:color/white"
+            android:onClick="createAccount"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Entrar"
+            android:background="@color/transparent"
+            android:textColor="@android:color/white"
+            android:onClick="entrar"
+            />
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:adSize="BANNER"
+            android:layout_marginTop="16dp"
+            app:adUnitId="@string/admob_key">
+        </com.google.android.gms.ads.AdView>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

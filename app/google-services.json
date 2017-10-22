@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "145499236378",
+    "project_id": "proud-breaker-116017"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145499236378:android:a845c04f0e4e1c71",
+        "android_client_info": {
+          "package_name": "in.co.victor.chatbubblesdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "145499236378-7o8ldmh3cjb16lvf149ve3a30n48leul.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.co.victor.chatbubblesdemo",
+            "certificate_hash": "70f21bf98eeb3c3142518b15e700bca8d55a7d00"
+          }
+        },
+        {
+          "client_id": "145499236378-atbh5do3qi90qfll2555qqe0bgpm1oem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8fUaWsRFpRMUbvFpwGcX5sPAPu5qYg9Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,56 @@
+package in.co.victor.chatbubblesdemo.model;
+
+import java.io.Serializable;
+
+/**
+ * Created by Victor on 19/10/2017.
+ */
+
+public class User implements Serializable {
+
+    private String id;
+    private String name;
+    private String email;
+    private String imageUri;
+    private LoginType type;
+
+    public LoginType getType() {
+        return type;
+    }
+
+    public void setType(LoginType type) {
+        this.type = type;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getImageUri() {
+        return imageUri;
+    }
+
+    public void setImageUri(String imageUri) {
+        this.imageUri = imageUri;
+    }
+}
